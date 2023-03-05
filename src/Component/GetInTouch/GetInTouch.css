@@ -1,0 +1,24 @@
+.touchContainer{
+    position: relative;
+    padding-top: 5rem;
+}
+.leftContainer{
+    margin-left: 6rem;
+    margin-top: 7rem;
+}
+.sendImg{
+    width: 2rem;
+    height: 4rem;
+}
+@media screen and (max-width:480px) {
+    .touchContainer{
+        padding-top: 1rem;
+        flex-direction: column;
+    }
+    .sendBtn{
+        font-size: 1.3rem;
+        font-family: 'Source Serif Pro', serif;
+        width: 40vw;
+        margin-left: 7rem;
+    }
+}

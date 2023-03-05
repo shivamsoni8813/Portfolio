@@ -1,0 +1,89 @@
+.projectContainer{
+    width: 99vw;
+    height: 86vh;
+    background-color: orange;
+    margin-top: 10rem;
+}
+.projectWrapper{
+    padding-top: 2rem;
+}
+.carousel{
+    padding-top: 2rem;
+}
+.projectInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+.cimg{
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    margin-left: 23rem;
+    border-radius: 30px;
+}
+.musichead{
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.projectInfo>p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:480px) {
+    .cimg{
+        position: relative;
+        width: 50vw;
+        height: 40vh;
+        margin-left: 6rem;
+        border-radius: 30px;
+    }
+    .projectContainer{
+        width: 99vw;
+        height: 75vh;
+        background-color: orange;
+        margin-top: 10rem;
+    }
+    .projectInfo>p{
+        font-size: 0.8rem;
+        font-weight: bold;
+        text-rendering: optimizeSpeed;
+        flex-direction: column;
+        
+    }
+}   
+
+@media  (min-width : 481px) and (max-width : 999px)
+{
+    .cimg{
+        position: relative;
+        width: 50vw;
+        height: 40vh;
+        margin-left: 13rem;
+        border-radius: 30px;
+    }
+    .projectContainer{
+        width: 99vw;
+        height: 65vh;
+        background-color: orange;
+        margin-top: 17rem;
+    }
+    .projectInfo>p{
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-rendering: optimizeSpeed;
+        flex-direction: column;
+    
+    }
+    .projectInfo>h5{
+        font-size: 1.7rem;
+        font-weight: bold;
+        text-rendering: optimizeSpeed;
+        flex-direction: column;
+    
+    }
+} 

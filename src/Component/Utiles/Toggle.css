@@ -1,0 +1,26 @@
+.toggleImgae{
+    border: 2px solid orange;
+    border-radius: 36px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0.3rem;
+    cursor: pointer;
+    justify-content: space-between;
+    width: 4rem;
+}
+.sunImage{
+    width: 1rem;
+}
+.moon{
+    width: 1rem;
+    
+}
+.togling{
+    width: 1.52rem;
+    height: 1.52rem;
+    border-radius: 100%;
+    background-color: orange;
+    position: absolute;
+}

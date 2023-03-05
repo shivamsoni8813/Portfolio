@@ -1,0 +1,72 @@
+.footer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+.content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10rem;
+}
+.footerimg{
+    background-color: black;
+    width: 100vw;
+    height:30vw;
+    margin-top: 10rem;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+.insta2{
+    border-radius: 1.4rem;
+    width: 7vw;
+}
+.linkedIn3{
+    border-radius: 1.4rem;
+    width: 7vw;
+}
+.footerText{
+    font-size: 2rem;
+}
+.goToAccount
+{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerContact{
+    font-size: 1.2rem;
+}
+
+.gitHub1{
+    width: 7vw;
+}
+@media screen and (max-width:480px) {
+    .footerimg{
+    width: 100vw;
+    height:55vw;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    }
+    .footerText{
+        padding-top: 4rem;
+        font-size: 0.9rem;
+    }
+    .footerContact{
+        font-size: 0.8rem;
+    }
+    .gitHub1{
+        width: 10vw;
+    }
+    .linkedIn3{
+        border-radius: 1.2rem;
+        width: 10vw;
+    }
+    .insta2{
+        border-radius: 1.2rem;
+        width: 10vw;
+    }
+}

@@ -1,0 +1,82 @@
+.sevices {
+  height: 200vh;
+  width: 99.5vw;
+}
+.cardWraper {
+  margin-top: 10rem;
+}
+.card-img-top {
+  border-radius: 2rem;
+}
+.webCard {
+  border: 0.15rem solid orange;
+  border-radius: 2rem;
+  left: 28%;
+}
+
+.webCard1 {
+  border: 0.15rem solid orange;
+  border-radius: 2rem;
+  bottom: 10%;
+  right: 20%;
+}
+.webCard3 {
+  border: 0.15rem solid orange;
+  border-radius: 2rem;
+  bottom: 27%;
+  left: 20%;
+}
+
+@media screen and (max-width: 480px) {
+  .sevices {
+    flex-direction: column;
+  }
+  
+  .webCard {
+    border: 0.15rem solid orange;
+    border-radius: 2rem;
+    left: 10%;
+  }
+  .webCard1 {
+    border: 0.15rem solid orange;
+    border-radius: 2rem;
+    top: 5%;
+    left: 10%;
+  }
+  .webCard3 {
+    border: 0.15rem solid orange;
+    border-radius: 2rem;
+    top: 9%;
+    left: 11%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 999px) {
+  .sevices {
+    height: 93vh;
+    flex-direction: column;
+  }
+  .cardWraper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+  }
+  .webCard {
+    border: 0.15rem solid orange;
+    border-radius: 2rem;
+    top: 5%;
+    left: 1%;
+  }
+  .webCard1 {
+    border: 0.15rem solid orange;
+    border-radius: 2rem;
+    top: 5%;
+    left: 1%;
+  }
+  .webCard3 {
+    border: 0.15rem solid orange;
+    border-radius: 2rem;
+    top: 5%;
+    left: 1%;
+  }
+}
