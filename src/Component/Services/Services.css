@@ -29,7 +29,15 @@
 
 @media screen and (max-width: 480px) {
   .sevices {
+    height: 186vh;
     flex-direction: column;
+  }
+  .form-control{
+    width: 60vw;
+    height: 10vh;
+  }
+  .cardWraper {
+    margin-top: 5rem;
   }
   
   .webCard {

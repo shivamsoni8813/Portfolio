@@ -16,8 +16,8 @@
 }
 .leftHeading{
     font-family: 'Source Serif Pro', serif;
-    margin-left: 6rem;
-    margin-top: 6rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
 }
 .upperHeading{
     font-size: 4.5rem;
@@ -51,8 +51,8 @@
 }
 
 .goToAccounts{
-    margin-top: 6rem;
-    margin-left: 4.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
 }
 .mineimage{
     position: relative;
@@ -125,12 +125,15 @@
         font-size: 1.5rem;
     }
     .gitHub{
-        width: 13vw;
-        height: 11vh;
-        border-radius: 1.2rem;
+        width: 15vw;
+        height: 8vh;
+        border-radius: 3.4rem;
     }
     .hireBtn{
         width: 40vw;
+    }
+    .navbar-toggler{
+        margin-left: 8rem;
     }
 }
 
@@ -148,10 +151,13 @@
         margin-top: 3rem;
         margin-left: 2rem;
     }
+    .navbar-toggler{
+        margin-left: 30rem;
+    }
     .gitHub{
-        width: 10vw;
+        width: 13vw;
         height: 10vh;
-        border-radius: 1.4rem;
+        border-radius: 3.4rem;
         margin-top: 5rem;
     }
     .hireBtn{

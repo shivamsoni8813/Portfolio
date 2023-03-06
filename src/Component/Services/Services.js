@@ -29,21 +29,21 @@ const Services = () => {
                     <div className="cardWraper">
 
 
-                        <div className="card webCard" data-aos="fade-left"  data-aos-offset="400"  data-aos-duration="1000" style={{width: "15rem"}}>
+                        <div className="card webCard" data-aos="fade-left"  data-aos-offset="50"  data-aos-duration="600" style={{width: "15rem"}}>
                             <img src="https://png.pngtree.com/element_our/sm/20180111/sm_5a57b98c83454.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body" >
                                     <h5 className="card-title text-center"style={{color:"black"}}>Frontend Development</h5>
                                     <p className="card-text text-center"style={{color:"black"}}>HTML,CSS,Javascript,ReactJs,Redux,BootStrap,PrimeReact,AOS,Git,GitHub</p>
                                 </div>
                         </div>
-                        <div className="card webCard1" data-aos="fade-right"  data-aos-offset="400"  data-aos-duration="2000" style={{width: "15rem"}}>
+                        <div className="card webCard1" data-aos="fade-right"  data-aos-offset="70"  data-aos-duration="700" style={{width: "15rem"}}>
                             <img src="https://png.pngtree.com/element_our/sm/20180111/sm_5a57b98c83454.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                     <h5 className="card-title text-center"style={{color:"black"}}>Programing & DSA</h5>
                                     <p className="card-text text-center"style={{color:"black"}}>JavaScript</p>
                                 </div>
                         </div>
-                        <div className="card webCard3" data-aos="fade-left"  data-aos-offset="400"  data-aos-duration="1000" style={{width: "15rem"}}>
+                        <div className="card webCard3" data-aos="fade-left"  data-aos-offset="100"  data-aos-duration="800" style={{width: "15rem"}}>
                             <img src="https://png.pngtree.com/element_our/sm/20180111/sm_5a57b98c83454.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                     <h5 className="card-title text-center" style={{color:"black"}}>Web Designing</h5>
