@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 const GetInTouch = () => {
     const form = useRef();
     let [success, setSuccess] = useState(false)
+    
     const sendEmail = (e) => {
         e.preventDefault();
 

@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import './Services.css'
 import Resume from '../images/front.pdf'
-import SkillsRate from '../SkillsRating/SkillsRate'
 import { colorContext } from '../Context/Context'
 
 const Services = () => {
